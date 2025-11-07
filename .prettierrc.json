@@ -8,5 +8,22 @@
   "arrowParens": "always",
   "endOfLine": "lf",
   "bracketSpacing": true,
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "<TYPES>",
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<TYPES>^@mui",
+    "^@mui/(.*)$",
+    "",
+    "<TYPES>^[.|..|~]",
+    "^~/",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.0.0"
 }
