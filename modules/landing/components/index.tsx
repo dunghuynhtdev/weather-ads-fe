@@ -1,0 +1,13 @@
+export { default as CTASection } from "./cta-section";
+export { default as CustomersSection } from "./customers-section";
+export { default as FeaturesSection } from "./features-section";
+export { default as Header } from "./header";
+export { default as HeroSection } from "./hero-section";
+export { default as PlatformsSection } from "./platforms-section";
+export { default as TopBanner } from "./top-banner";
+export { default as FeaturesDashboardSection } from "./features-dashboard-section";
+export { default as FeaturesMapSection } from "./features-map-section";
+export { default as CaseStudySection } from "./case-study-section";
+export { default as TestimonialsSection } from "./testimonials-section";
+export { default as FinalCTASection } from "./final-cta-section";
+export { default as Footer } from "./footer";
